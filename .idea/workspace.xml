@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f385414-e238-4ca6-b259-ba9b1a51a18e" name="Default" comment="initial changes">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/images/bg/img-bg1.jpg" afterPath="$PROJECT_DIR$/images/bg/img-bg1.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/bg/img-bg2.jpg" afterPath="$PROJECT_DIR$/images/bg/img-bg2.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/bg/img-bg5.jpg" afterPath="$PROJECT_DIR$/images/bg/img-bg5.jpg" />
-      <change beforePath="$PROJECT_DIR$/wip.html" afterPath="$PROJECT_DIR$/wip.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +28,8 @@
       <file leaf-file-name="wip.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wip.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="221">
+              <caret line="13" column="81" lean-forward="true" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -177,12 +171,20 @@
       <updated>1531687924990</updated>
       <workItem from="1531687927539" duration="1522000" />
       <workItem from="1531689475881" duration="223000" />
-      <workItem from="1531690820201" duration="4058000" />
+      <workItem from="1531690820201" duration="4222000" />
     </task>
+    <task id="LOCAL-00001" summary="initial changes">
+      <created>1531740496984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531740496984</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5803000" />
+    <option name="totallyTimeSpent" value="5967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -297,8 +299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wip.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="221">
+          <caret line="13" column="81" lean-forward="true" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
           <folding />
         </state>
       </provider>
