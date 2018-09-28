@@ -51,11 +51,17 @@ $Body .= $message;
 $Body .= "\n";
 
 // send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
+if($errorMSG == ""){
+  mail($EmailTo, $Subject, $Body);
+  echo "Thank you" + $name;
+}else{
+  echo $errorMSG;
+}
+
 
 // redirect to success page
-if ($success && $errorMSG == ""){
-   echo "success";
+if (mail($EmailTo, $Subject, $Body)){
+   echo "Thank you" + $name;
 }else{
     if($errorMSG == ""){
         echo "Something went wrong :(";
