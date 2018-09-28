@@ -5,14 +5,14 @@ if(isset($_POST['submit']))
 {
 $name = $_POST['name'];
 $submit_links = $_POST['submit_links'];
-$from_add = "submit@webdesignrepo.com";
-$to_add = "ben@webdesignrepo.com";
+$from_add = "byron@byronmardas.com";
+$to_add = "byron@byronmardas.com";
 $subject = "Your Subject Name";
 $message = "Name:$name \n Sites: $submit_links";
 
-$headers = 'From: submit@webdesignrepo.com' . "\r\n" .
+$headers = 'From: byron@byronmardas.com' . "\r\n" .
 
-'Reply-To: ben@webdesignrepo.com' . "\r\n";
+'Reply-To: byron@byronmardas.com' . "\r\n";
 
 if(mail($to_add,$subject,$message,$headers))
 {
