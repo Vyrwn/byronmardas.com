@@ -1,67 +1,32 @@
 <?php
+error_reporting(-1);
 
-$errorMSG = "";
+if(isset($_POST['submit']))
+{
+$name = $_POST['name'];
+$submit_links = $_POST['submit_links'];
+$from_add = "submit@webdesignrepo.com";
+$to_add = "ben@webdesignrepo.com";
+$subject = "Your Subject Name";
+$message = "Name:$name \n Sites: $submit_links";
 
-// NAME
-if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
-} else {
-    $name = $_POST["name"];
+$headers = 'From: submit@webdesignrepo.com' . "\r\n" .
+
+'Reply-To: ben@webdesignrepo.com' . "\r\n";
+
+if(mail($to_add,$subject,$message,$headers))
+{
+    $msg = "Mail sent";
+
+ echo $msg;
 }
 
-// EMAIL
-if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required ";
-} else {
-    $email = $_POST["email"];
+print "<p>Thanks $name</p>" ;
 }
 
-// MSG SUBJECT
-if (empty($_POST["msg_subject"])) {
-    $errorMSG .= "Subject is required ";
-} else {
-    $msg_subject = $_POST["msg_subject"];
-}
-
-
-// MESSAGE
-if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
-} else {
-    $message = $_POST["message"];
-}
-
-
-$EmailTo = "byron@byronmardas.com";
-$Subject = "Website Email";
-
-// prepare email body text
-$Body = "";
-$Body .= "Name: ";
-$Body .= $name;
-$Body .= "\n";
-$Body .= "Email: ";
-$Body .= $email;
-$Body .= "\n";
-$Body .= "Subject: ";
-$Body .= $msg_subject;
-$Body .= "\n";
-$Body .= "Message: ";
-$Body .= $message;
-$Body .= "\n";
-
-// send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
-
-// redirect to success page
-if ($success && $errorMSG == ""){
-   echo "success";
-}else{
-    if($errorMSG == ""){
-        echo "Something went wrong :(";
-    } else {
-        echo $errorMSG;
-    }
+// else conditional statement for if(isset($_POST['submit']))
+else {
+echo "Sorry, you cannot do that from here. Please fill in the form first.";
 }
 
 ?>
