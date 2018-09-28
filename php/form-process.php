@@ -32,7 +32,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "byron@byronmardas.com";
+$EmailTo = "byron@byronmardas.com","byrwn_mar@hotmail.com";
 // $Subject = "Website Email";
 
 // prepare email body text
@@ -52,7 +52,10 @@ $Body .= "\n";
 
 $headers = "From: webmaster@example.com " . "\r\n";
 
+
+
 // send email
+mail($EmailTo, $msg_subject, $Body, $headers);
 if($errorMSG == ""){
   mail($EmailTo, $msg_subject, $Body, $headers);
   echo "Thank you" + $name;
