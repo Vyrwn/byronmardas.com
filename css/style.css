@@ -13,7 +13,7 @@
 /*------------------------------------------------------------------
 
     [Table of contents]
-    
+
     0. General Styles
     1. Preloader
     2. Home Styles
@@ -661,7 +661,7 @@ h2.menu-item:after {
     background: #F1F3F6;
     position: fixed;
     height: 40px;
-    width: 69%;
+    width: 64%;
     right: 13px;
     top: -50px;
     transition: all 0.5s;
@@ -761,10 +761,10 @@ h2.menu-item:after {
 }
 
 .sidebar-menu {
-    background: #111; 
+    background: #111;
     height: 100%;
     left: 0;
-    position: fixed; 
+    position: fixed;
     width: 20%;
 }
 
@@ -828,13 +828,13 @@ h2.menu-item:after {
 
 .content-blocks {
     position: fixed;
-    width: 85%;
+    width: 65%;
     height: 100vh;
     opacity: 0.5;
     overflow-x: hidden;
     overflow-y: scroll;
     top: 100%;
-    left: 15%;
+    left: 35%;
     background: #FFF;
     transition: opacity 0.7s ease-out;
     z-index: 1;
@@ -858,7 +858,7 @@ h2.menu-item:after {
 
 .content {
     position: relative;
-    padding: 120px 70px 30px;
+    padding: 30px 70px 30px;
     height: auto;
     overflow: hidden;
 }
@@ -1489,7 +1489,7 @@ h4.package {
 
 .portfolio-item img {
     width: 100%;
-    transition: all 5s;
+    transition: all 1s;
 }
 
 .portfolio-column {
@@ -2352,7 +2352,7 @@ h4.package {
     .inline-menu-container {
         font-size: 14px;
         right: 10px;
-        width: 69%;
+        width: 64%;
     }
     .inline-menu li {
         padding: 0 10px;
@@ -2780,16 +2780,16 @@ h4.package {
 -------------------------------------------------------------------*/
 
 .buy-now {
-    background-color: #82B441;  
-    color: #FFF; 
-    display: block; 
-    font-size: 13px; 
-    font-weight: 500; 
+    background-color: #82B441;
+    color: #FFF;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
     left: 50px;
     letter-spacing: 1.5px;
-    padding: 3px 15px; 
+    padding: 3px 15px;
     position: absolute;
-    top: 20px; 
+    top: 20px;
     z-index: 999
 }
 .buy-now:hover {

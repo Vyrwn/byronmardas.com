@@ -32,7 +32,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "byron@byronmardas.com","byrwn_mar@hotmail.com";
+$EmailTo = "byron@byronmardas.com";
 // $Subject = "Website Email";
 
 // prepare email body text
@@ -50,14 +50,12 @@ $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
 
-$headers = "From: webmaster@example.com " . "\r\n";
-
 
 
 // send email
-mail($EmailTo, $msg_subject, $Body, $headers);
+mail($EmailTo, $msg_subject, $Body);
 if($errorMSG == ""){
-  mail($EmailTo, $msg_subject, $Body, $headers);
+  mail($EmailTo, $msg_subject, $Body);
   echo "Thank you" + $name;
 }else{
   echo $errorMSG;
@@ -65,7 +63,7 @@ if($errorMSG == ""){
 
 
 // redirect to success page
-if (mail($EmailTo, $msg_subject, $Body, $headers)){
+if (mail($EmailTo, $msg_subject, $Body)){
    echo "Thank you" + $name;
 }else{
     if($errorMSG == ""){
