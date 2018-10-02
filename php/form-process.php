@@ -53,11 +53,14 @@ $Body .= "\n";
 
 
 // send email
-mail($EmailTo, $msg_subject, $Body);
+// mail($EmailTo, $msg_subject, $Body);
+$msg_submit = mail($EmailTo, $msg_subject, $Body);
 if($errorMSG == ""){
-  mail($EmailTo, $msg_subject, $Body);
+  $msg_submit;
+  // mail($EmailTo, $msg_subject, $Body);
   echo "Thank you" + $name;
 }else{
+  echo "Nothing is happening";
   echo $errorMSG;
 }
 
@@ -66,6 +69,7 @@ if($errorMSG == ""){
 if (mail($EmailTo, $msg_subject, $Body)){
    echo "Thank you" + $name;
 }else{
+    echo "Nothing is happening :(";
     if($errorMSG == ""){
         echo "Something went wrong :(";
     } else {
