@@ -113,7 +113,7 @@ h4 {
 
 h5 {
     font-size: 15px;
-    line-height: 32px;
+    line-height: 0px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1216,7 +1216,7 @@ h2.menu-item:after {
 
 .exp .hgroup h4,
 .exp .hgroup h5 {
-    display: table-cell;
+    /* display: table-cell; */
     text-transform: none;
     margin-bottom: 10px;
 }
@@ -1230,29 +1230,29 @@ h2.menu-item:after {
 }
 
 .exp .hgroup h5 {
-    font-size: 14px;
-    font-weight: 400;
-    text-align: right;
-    color: #727272;
-    padding-left: 60px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    color: #c1daee;
+    padding-right: 80px;
     position: relative;
 }
 
 .exp .hgroup h5:before {
     color: #ddd;
-    content: "/";
+    /* content: "/"; */
     left: 0;
-    left: 30px;
-    position: absolute;
+    right: 40px;
+    position: relative;
 }
 
 .exp .hgroup h5 span.current {
-    font-style: italic;
+    font-style: normal;
 }
 
 .service {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 2px;
 }
 
 .service h4 {
