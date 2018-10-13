@@ -54,9 +54,9 @@ $Body .= "\n";
 
 // send email
 // mail($EmailTo, $msg_subject, $Body);
-$msg_submit = mail($EmailTo, $msg_subject, $Body);
+$submitMSG = mail($EmailTo, $msg_subject, $Body);
 if($errorMSG == ""){
-  $msg_submit;
+  $submitMSG;
   // mail($EmailTo, $msg_subject, $Body);
   echo "Thank you" + $name;
 }else{
