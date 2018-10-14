@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f385414-e238-4ca6-b259-ba9b1a51a18e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/service_rays.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/wip_portfolio.html" afterPath="$PROJECT_DIR$/wip_portfolio.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +30,18 @@
       <file leaf-file-name="wip_portfolio.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wip_portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="105" column="61" lean-forward="false" selection-start-line="105" selection-start-column="56" selection-end-line="105" selection-end-column="61" />
+            <state relative-caret-position="536">
+              <caret line="278" column="83" lean-forward="true" selection-start-line="278" selection-start-column="83" selection-end-line="278" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service_rays.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_rays.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -59,8 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Resume</find>
-      <find>About</find>
       <find>Section</find>
       <find>70%</find>
       <find>I am available</find>
@@ -89,6 +99,8 @@
       <find>project-1.html</find>
       <find>110px</find>
       <find>Test</find>
+      <find>rays_1</find>
+      <find>revit</find>
     </findStrings>
     <replaceStrings>
       <replace>About</replace>
@@ -109,6 +121,7 @@
         <option value="$PROJECT_DIR$/wip.html" />
         <option value="$PROJECT_DIR$/project-1.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/service_rays.html" />
         <option value="$PROJECT_DIR$/wip_portfolio.html" />
       </list>
     </option>
@@ -128,7 +141,9 @@
     <option name="width" value="974" />
     <option name="height" value="532" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -170,12 +185,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\byronmardas.com" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\byronmardas.com\ss" />
       <recent name="D:\GitHub\byronmardas.com\images\portfolio\masonry" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub\byronmardas.com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,7 +231,7 @@
       <workItem from="1531690820201" duration="4770000" />
       <workItem from="1539520022650" duration="5483000" />
       <workItem from="1539528276995" duration="1884000" />
-      <workItem from="1539534455429" duration="2339000" />
+      <workItem from="1539534455429" duration="4659000" />
     </task>
     <task id="LOCAL-00001" summary="initial changes">
       <created>1531740496984</created>
@@ -260,11 +275,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539544484470</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initial changes">
+      <created>1539544924740</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539544924740</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16221000" />
+    <option name="totallyTimeSpent" value="18541000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,6 +299,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26279318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -467,10 +490,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service_rays.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wip_portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="105" column="61" lean-forward="false" selection-start-line="105" selection-start-column="56" selection-end-line="105" selection-end-column="61" />
+        <state relative-caret-position="536">
+          <caret line="278" column="83" lean-forward="true" selection-start-line="278" selection-start-column="83" selection-end-line="278" selection-end-column="83" />
           <folding />
         </state>
       </provider>

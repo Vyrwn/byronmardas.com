@@ -1,0 +1,49 @@
+<div class="block-content">
+    <div class="project-head">
+        <h1 class="block-title">Solar  rays and reflections</h1>
+        <div class="tags"><span>Category : </span> Solar studies</div>
+        <div class="tags"><span>Employer : </span> Self, Foster + Partners</div>
+        <div class="tags"><span>Role : </span> Full Development</div>
+    </div>
+    <p class="project-description">When producing detailed and complex simulations, focusing on occupant's comfort and well-being, it is not always easy to communicate results. For this reason, I have been using Unity to develop application with this sole purpose. Glare / daylights studies, outdoor comfort, and a series of other studies are now more easy to interpret and convey than ever, even in Virtual Reality.</p>
+    <div class="project-media row">
+        <div class="col-md-6">
+            <span><img src="images/portfolio/masonry/rays_1.png" onmouseover="this.src='images/portfolio/masonry/rays_1.gif'"
+                       onmouseout="this.src='images/portfolio/masonry/rays_1.png'" class="centerImage" width="100%"></span>
+            <figcaption>Direct and reflected solar rays tool</figcaption>
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="images/portfolio/masonry/rays_2.png" onmouseover="this.src='images/portfolio/masonry/rays_2.gif'"
+                       onmouseout="this.src='images/portfolio/masonry/rays_2.png'" class="centerImage" width="100%"></span>
+            <figcaption>Urban Room solar ray access - Foster + Partners</figcaption>
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+    </div>
+    <div class="project-nav text-center">
+        <!--<span class="float-left">-->
+            <!--<a class="open-project" href="project-6.html">&leftarrow; Previous Project</a>-->
+        <!--</span>-->
+        <span class="">
+            <a id="close-project" href="#"><i class="ion-grid"></i></a>
+        </span>
+        <!--<span class="float-right">-->
+            <!--<a class="open-project" href="project-2.html">Next Project &rightarrow; </a>-->
+        <!--</span>-->
+    </div>
+</div>
+
+<script>
+    $('.open-project').on('click', function() {
+        var projectUrl = $(this).attr("href");
+        $('.inline-menu-container').removeClass('showx');
+        $('.content-blocks.pop').addClass('showx');
+        $('.content-blocks.pop section').load(projectUrl)
+        return false;
+    });
+    $('#close-project').on('click', function() {
+        $('.content-blocks.pop').removeClass('showx');
+        $('.inline-menu-container').addClass('showx');
+        $('.content-blocks.pop section').empty();
+    });
+</script>
