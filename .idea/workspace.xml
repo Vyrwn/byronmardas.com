@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f385414-e238-4ca6-b259-ba9b1a51a18e" name="Default" comment="solar stuff">
-      <change beforePath="" afterPath="$PROJECT_DIR$/service_daylight.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service_energy.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service_formfinding.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service_glare.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service_outdoor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service_shadows.html" />
+    <list default="true" id="8f385414-e238-4ca6-b259-ba9b1a51a18e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/service_solaraccess.html" afterPath="$PROJECT_DIR$/service_solaraccess.html" />
-      <change beforePath="$PROJECT_DIR$/wip_portfolio.html" afterPath="$PROJECT_DIR$/wip_portfolio.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -306,7 +298,7 @@
       <workItem from="1539638729260" duration="1356000" />
       <workItem from="1539644882485" duration="5860000" />
       <workItem from="1539858212941" duration="2943000" />
-      <workItem from="1539889844212" duration="1712000" />
+      <workItem from="1539889844212" duration="1781000" />
     </task>
     <task id="LOCAL-00001" summary="initial changes">
       <created>1531740496984</created>
@@ -378,11 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539661905393</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="stuff">
+      <created>1539892315848</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1539892315848</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30508000" />
+    <option name="totallyTimeSpent" value="30577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +428,8 @@
     <MESSAGE value="initial changes" />
     <MESSAGE value="rays" />
     <MESSAGE value="solar stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="solar stuff" />
+    <MESSAGE value="stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
