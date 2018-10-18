@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8f385414-e238-4ca6-b259-ba9b1a51a18e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/images/logos/revit_text.png" afterPath="$PROJECT_DIR$/images/logos/revit_text.png" />
+      <change beforePath="$PROJECT_DIR$/wip_portfolio.html" afterPath="$PROJECT_DIR$/wip_portfolio.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +30,8 @@
       <file leaf-file-name="wip_portfolio.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wip_portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2329">
-              <caret line="358" column="90" lean-forward="false" selection-start-line="358" selection-start-column="90" selection-end-line="358" selection-end-column="90" />
+            <state relative-caret-position="332">
+              <caret line="105" column="117" lean-forward="false" selection-start-line="105" selection-start-column="117" selection-end-line="105" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -129,7 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Section</find>
       <find>70%</find>
       <find>I am available</find>
       <find>scale</find>
@@ -158,6 +159,7 @@
       <find>110px</find>
       <find>Test</find>
       <find>rays_1</find>
+      <find>bm</find>
       <find>revit</find>
     </findStrings>
     <replaceStrings>
@@ -298,7 +300,7 @@
       <workItem from="1539638729260" duration="1356000" />
       <workItem from="1539644882485" duration="5860000" />
       <workItem from="1539858212941" duration="2943000" />
-      <workItem from="1539889844212" duration="1781000" />
+      <workItem from="1539889844212" duration="2609000" />
     </task>
     <task id="LOCAL-00001" summary="initial changes">
       <created>1531740496984</created>
@@ -377,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539892315848</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="stuff">
+      <created>1539899555161</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1539899555161</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30577000" />
+    <option name="totallyTimeSpent" value="31405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -776,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wip_portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="358" column="90" lean-forward="false" selection-start-line="358" selection-start-column="90" selection-end-line="358" selection-end-column="90" />
+        <state relative-caret-position="332">
+          <caret line="105" column="117" lean-forward="false" selection-start-line="105" selection-start-column="117" selection-end-line="105" selection-end-column="117" />
           <folding />
         </state>
       </provider>
