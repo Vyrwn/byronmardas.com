@@ -170,6 +170,10 @@
 	    $('.inline-menu-container.style2').removeClass('dark');
 	});
 
+
+
+
+	
 	// Intialize Map
 	// google.maps.event.addDomListener(window, 'load', init);
 

@@ -974,7 +974,7 @@ h2.menu-item:after {
     font-weight: 700;
     color: #FFF;
     margin-bottom: 10px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .dark .name-block-container h1,
@@ -1627,7 +1627,7 @@ h4.package {
 }
 
 .project-media img {
-    margin-bottom: 30px;
+    margin-bottom: 2px;
 }
 
 .video-container {
