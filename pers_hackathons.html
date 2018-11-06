@@ -1,0 +1,55 @@
+<div class="block-content">
+    <div class="project-head">
+        <h1 class="block-title">Hackathons</h1>
+    </div>
+    <p class="project-description">The last three years, I had the oportunity to attend the AEC symposium and Hackathon, hosted by CORE studio - Thornton Tomasetti in NYC. Besides getting to know the AEC community I was able to work with the most talented people during three great hackathon projects.</p>
+    <ul style="list-style-type:disc" style="padding-left:5px;">
+        <li><a href="https://github.com/design-generator" target="_blank">Design Generator | AEC Hackathon 2016 - Chris, Sarith and Paul.</a></li>
+        <li><a href="https://github.com/ladybug-tools/ladybugvizzz" target="_blank">Ladybug Vizzzz | AEC Hackathon 2017 - An-lei, Anton , James, Leland, Matt and Mostapha.</a></li>
+        <li><a href="https://github.com/Crashnorun/GoRhinoGo" target="_blank">GoRhinoGo | AEC Hackathon 2018 - George, Andrew , Charlie.</a></li>
+    </ul>
+    <p></p>
+    <div class="project-media row">
+        <!--<div>-->
+            <!--<span><img src="images/portfolio/masonry/hackathon_1.png" class="centerImage" width="100%"></span>-->
+            <!--<figcaption>Design Generator | AEC Hackathon 2016</figcaption>-->
+            <!--&lt;!&ndash;<img src="images/portfolio/masonry/unity_1.png" alt="" />&ndash;&gt;-->
+        <!--</div>-->
+        <div class="col-md-6">
+            <span><img src="images/portfolio/masonry/hackathon_2.gif" class="centerImage" width="100%"></span>
+            <figcaption>Ladybug Vizzzz | AEC Hackathon 2017</figcaption>
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="images/portfolio/masonry/hackathon_3.gif" class="centerImage" width="50%"></span>
+            <figcaption>GoRhinoGo | AEC Hackathon 2018</figcaption>
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+    </div>
+    <div class="project-nav text-center">
+        <!--<span class="float-left">-->
+            <!--<a class="open-project" href="project-6.html">&leftarrow; Previous Project</a>-->
+        <!--</span>-->
+        <span class="">
+            <a id="close-project" href="#"><i class="ion-grid"></i></a>
+        </span>
+        <!--<span class="float-right">-->
+            <!--<a class="open-project" href="project-2.html">Next Project &rightarrow; </a>-->
+        <!--</span>-->
+    </div>
+</div>
+
+<script>
+    $('.open-project').on('click', function() {
+        var projectUrl = $(this).attr("href");
+        $('.inline-menu-container').removeClass('showx');
+        $('.content-blocks.pop').addClass('showx');
+        $('.content-blocks.pop section').load(projectUrl)
+        return false;
+    });
+    $('#close-project').on('click', function() {
+        $('.content-blocks.pop').removeClass('showx');
+        $('.inline-menu-container').addClass('showx');
+        $('.content-blocks.pop section').empty();
+    });
+</script>

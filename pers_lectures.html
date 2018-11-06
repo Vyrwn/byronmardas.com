@@ -1,0 +1,50 @@
+<div class="block-content">
+    <div class="project-head">
+        <h1 class="block-title">Lectures</h1>
+    </div>
+    <p class="project-description">As an enthusiast of <strong>open source development and the AEC community</strong>, I have been involved in the development of several tools, either for in house use or for the industry. I have been very lucky to be part of an amazing team developing components for <strong>Ladybug.tools</strong>.</p>
+    <p>Within my teams, I try to create tools that enhance productivity and reduce repetitive "boring" tasks, giving more time for more important tasks.</p>
+    <div class="project-media row">
+        <div class="col-md-6">
+            <span><img src="images/portfolio/masonry/lecture_1.png" class="centerImage" width="100%"></span>
+            <figcaption>Green Sky Thinking Week | Foster + Partners</figcaption>
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="images/portfolio/masonry/lecture_2.png" class="centerImage" width="100%"></span>
+            <figcaption>Daylight Studies using Ladybug tools | IBPSA London</figcaption>
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="images/portfolio/masonry/lecture_3.png" class="centerImage" width="100%"></span>
+            <figcaption>Open House Weekend | Foster + Partners</figcaption>
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+    </div>
+    <div class="project-nav text-center">
+        <!--<span class="float-left">-->
+            <!--<a class="open-project" href="project-6.html">&leftarrow; Previous Project</a>-->
+        <!--</span>-->
+        <span class="">
+            <a id="close-project" href="#"><i class="ion-grid"></i></a>
+        </span>
+        <!--<span class="float-right">-->
+            <!--<a class="open-project" href="project-2.html">Next Project &rightarrow; </a>-->
+        <!--</span>-->
+    </div>
+</div>
+
+<script>
+    $('.open-project').on('click', function() {
+        var projectUrl = $(this).attr("href");
+        $('.inline-menu-container').removeClass('showx');
+        $('.content-blocks.pop').addClass('showx');
+        $('.content-blocks.pop section').load(projectUrl)
+        return false;
+    });
+    $('#close-project').on('click', function() {
+        $('.content-blocks.pop').removeClass('showx');
+        $('.inline-menu-container').addClass('showx');
+        $('.content-blocks.pop section').empty();
+    });
+</script>
