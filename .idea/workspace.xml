@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f385414-e238-4ca6-b259-ba9b1a51a18e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="8f385414-e238-4ca6-b259-ba9b1a51a18e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,53 +22,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wip_portfolio.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wip_portfolio.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4147">
-              <caret line="275" column="32" lean-forward="true" selection-start-line="275" selection-start-column="32" selection-end-line="275" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pers_hackathons.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pers_hackathons.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#1;n#ul#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pers_academic.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pers_academic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="65" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pers_experiments.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pers_experiments.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -174,6 +126,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,14 +144,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../byron-master/EDA" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -265,6 +218,7 @@
       <workItem from="1545267102605" duration="2479000" />
       <workItem from="1547652943104" duration="118000" />
       <workItem from="1549018923865" duration="673000" />
+      <workItem from="1549658758210" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="initial changes">
       <created>1531740496984</created>
@@ -396,7 +350,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48196000" />
+    <option name="totallyTimeSpent" value="48231000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,9 +363,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29904053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3022388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -756,9 +709,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wip_portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="275" column="32" lean-forward="false" selection-start-line="275" selection-start-column="32" selection-end-line="275" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pers_hackathons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pers_academic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="17">
           <caret line="7" column="65" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
           <folding />
         </state>
@@ -769,27 +743,6 @@
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pers_hackathons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#1;n#ul#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wip_portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4147">
-          <caret line="275" column="32" lean-forward="true" selection-start-line="275" selection-start-column="32" selection-end-line="275" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
