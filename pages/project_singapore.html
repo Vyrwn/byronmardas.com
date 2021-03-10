@@ -1,0 +1,69 @@
+<div class="block-content">
+    <div class="project-head">
+        <h1 class="block-title">Notable Projects</h1>
+        <div class="tags"><span>Category : </span> Daylight | Glare | External Dazle</div>
+        <div class="tags"><span>Employer : </span> Foster + Partners</div>
+        <div class="tags"><span>Client: </span> Apple Inc.</div>
+        <div class="tags"><span>Location: </span> Singapore</div>
+        <div class="tags"><span>Role : </span> Environmental Studies | Coordination with design team</div>
+    </div>
+    <p class="project-description">Probably the most high end project I have worked for. My role in this changed throughout the duration, starting from simple 
+        daylight studies evolving to general coordination of environmental design up to communication with city planning.
+        <br>Due to the form of the building, glare mitigation measures were important and I was able, from early stages, to affect the design of the cladding system. 
+        Extensive studies around glare, daylight, device glare, screen viewing were done in multiple stages of the project. While in construction I had to coordinate with 
+        the team to ensure that no external dazle occurs to the surrounding areas. 
+    </p>
+    <div class="project-media row">
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/apple_Sinagpore2.jpg" class="centerImage" width="100%"></span>
+            <!-- <figcaption>Glare visualization tool</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/apple_Sinagpore3.jpg"  class="centerImage" width="100%"></span>
+            <!-- <figcaption>Urban Room solar ray access - Foster + Partners</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/apple_Sinagpore4.jpg"  class="centerImage" width="100%"></span>
+            <!-- <figcaption>Urban Room solar ray access - Foster + Partners</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/apple_Sinagpore6.jpg"  class="centerImage" width="100%"></span>
+            <!-- <figcaption>Urban Room solar ray access - Foster + Partners</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/apple_Sinagpore5.gif"  class="centerImage" width="100%"></span>
+            <!-- <figcaption>Urban Room solar ray access - Foster + Partners</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+    </div>
+    <div class="project-nav text-center">
+        <!--<span class="float-left">-->
+            <!--<a class="open-project" href="project-6.html">&leftarrow; Previous Project</a>-->
+        <!--</span>-->
+        <span class="">
+            <a id="close-project" href="#"><i class="ion-grid"></i></a>
+        </span>
+        <!--<span class="float-right">-->
+            <!--<a class="open-project" href="project-2.html">Next Project &rightarrow; </a>-->
+        <!--</span>-->
+    </div>
+</div>
+
+<script>
+    $('.open-project').on('click', function() {
+        var projectUrl = $(this).attr("href");
+        $('.inline-menu-container').removeClass('showx');
+        $('.content-blocks.pop').addClass('showx');
+        $('.content-blocks.pop section').load(projectUrl)
+        return false;
+    });
+    $('#close-project').on('click', function() {
+        $('.content-blocks.pop').removeClass('showx');
+        $('.inline-menu-container').addClass('showx');
+        $('.content-blocks.pop section').empty();
+    });
+</script>

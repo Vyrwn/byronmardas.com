@@ -1,0 +1,63 @@
+<div class="block-content">
+    <div class="project-head">
+        <h1 class="block-title">Notable Projects</h1>
+        <div class="tags"><span>Category : </span> Total Environmental Design Overview</div>
+        <div class="tags"><span>Employer : </span> Foster + Partners</div>
+        <div class="tags"><span>Client: </span> Andhra Pradesh Government</div>
+        <div class="tags"><span>Location: </span> Andhra Pradesh - India</div>
+        <div class="tags"><span>Role : </span> Environmental Design lead | Environmental Studies | Benchmarking | General Coordination</div>
+    </div>
+    <p class="project-description">The first project where I had a managerial role, representing the Environmental Engineering team. I involved throughout the duration of the project 
+        and was able to coordinate all Environmental aspects from Climate summary / responses, indoor & outdoor studies, MEP strategies, down to local Benchmarking.
+        <br>Working on the 5 office towers, I worked both on external comfort and on building performance where I was able to impact the cladding design. It was the largest 
+        project where I had to coordinate with the MEP team and was leading all the communications with the design team and the client.
+    </p>
+    <div class="project-media row">
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/amaravati.jpg" class="centerImage" width="100%"></span>
+            <!-- <figcaption>Glare visualization tool</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/amaravati2.jpg"  class="centerImage" width="100%"></span>
+            <!-- <figcaption>Urban Room solar ray access - Foster + Partners</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/amaravati3.jpg"  class="centerImage" width="100%"></span>
+            <!-- <figcaption>Urban Room solar ray access - Foster + Partners</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/amaravati4.jpg"  class="centerImage" width="100%"></span>
+            <!-- <figcaption>Urban Room solar ray access - Foster + Partners</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+    </div>
+    <div class="project-nav text-center">
+        <!--<span class="float-left">-->
+            <!--<a class="open-project" href="project-6.html">&leftarrow; Previous Project</a>-->
+        <!--</span>-->
+        <span class="">
+            <a id="close-project" href="#"><i class="ion-grid"></i></a>
+        </span>
+        <!--<span class="float-right">-->
+            <!--<a class="open-project" href="project-2.html">Next Project &rightarrow; </a>-->
+        <!--</span>-->
+    </div>
+</div>
+
+<script>
+    $('.open-project').on('click', function() {
+        var projectUrl = $(this).attr("href");
+        $('.inline-menu-container').removeClass('showx');
+        $('.content-blocks.pop').addClass('showx');
+        $('.content-blocks.pop section').load(projectUrl)
+        return false;
+    });
+    $('#close-project').on('click', function() {
+        $('.content-blocks.pop').removeClass('showx');
+        $('.inline-menu-container').addClass('showx');
+        $('.content-blocks.pop section').empty();
+    });
+</script>

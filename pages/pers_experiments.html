@@ -1,0 +1,22 @@
+<div class="block-content">
+    <div class="project-head">
+        <h1 class="block-title">Experiments</h1>
+    </div>
+    <p class="project-description"><strong>Coming Soon ...</strong></p>
+
+</div>
+
+<script>
+    $('.open-project').on('click', function() {
+        var projectUrl = $(this).attr("href");
+        $('.inline-menu-container').removeClass('showx');
+        $('.content-blocks.pop').addClass('showx');
+        $('.content-blocks.pop section').load(projectUrl)
+        return false;
+    });
+    $('#close-project').on('click', function() {
+        $('.content-blocks.pop').removeClass('showx');
+        $('.inline-menu-container').addClass('showx');
+        $('.content-blocks.pop section').empty();
+    });
+</script>

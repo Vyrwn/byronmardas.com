@@ -1,0 +1,57 @@
+<div class="block-content">
+    <div class="project-head">
+        <h1 class="block-title">communication</h1>
+        <div class="tags"><span>Employer : </span> Self | Foster + Partners</div>
+        <div class="tags"><span>Role : </span> Full Development</div>
+    </div>
+    <p class="project-description">This section shows some examples of Unity projects I developed purely to allow for communcation with design teams and clients.
+        <br>Some aspects of environmental design such as daylight glare or outdoor comfort are quite hard to communicate with non-technical people. For this reason 
+        I have spent quite some time to improve both the static visualisation (reports) and the more dynamic ones like on screen or through VR immersive technologies. 
+    </p>
+    <div class="project-media row">
+        <div class="col-md-6">
+            <span><img src="images/portfolio/masonry/unity_2.png" onmouseover="this.src='images/portfolio/masonry/unity_2.gif'"
+                       onmouseout="this.src='images/portfolio/masonry/unity_2.png'" class="centerImage" width="100%"></span>
+            <figcaption>Glare visualization tool | Foster + Partners</figcaption>
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="images/portfolio/masonry/unity_3.png" onmouseover="this.src='images/portfolio/masonry/unity_3.gif'"
+                       onmouseout="this.src='images/portfolio/masonry/unity_3.png'" class="centerImage" width="100%"></span>
+            <figcaption>Outdoor comfort VR version | Foster + Partners</figcaption>
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="images/portfolio/masonry/unity_1.png" onmouseover="this.src='images/portfolio/masonry/unity_1.gif'"
+                       onmouseout="this.src='images/portfolio/masonry/unity_1.png'" class="centerImage" width="100%"></span>
+            <figcaption>Outdoor comfort interactive | Foster + Partners</figcaption>
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+    </div>
+    <div class="project-nav text-center">
+        <!--<span class="float-left">-->
+            <!--<a class="open-project" href="project-6.html">&leftarrow; Previous Project</a>-->
+        <!--</span>-->
+        <span class="">
+            <a id="close-project" href="#"><i class="ion-grid"></i></a>
+        </span>
+        <!--<span class="float-right">-->
+            <!--<a class="open-project" href="project-2.html">Next Project &rightarrow; </a>-->
+        <!--</span>-->
+    </div>
+</div>
+
+<script>
+    $('.open-project').on('click', function() {
+        var projectUrl = $(this).attr("href");
+        $('.inline-menu-container').removeClass('showx');
+        $('.content-blocks.pop').addClass('showx');
+        $('.content-blocks.pop section').load(projectUrl)
+        return false;
+    });
+    $('#close-project').on('click', function() {
+        $('.content-blocks.pop').removeClass('showx');
+        $('.inline-menu-container').addClass('showx');
+        $('.content-blocks.pop section').empty();
+    });
+</script>

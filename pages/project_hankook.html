@@ -1,0 +1,69 @@
+<div class="block-content">
+    <div class="project-head">
+        <h1 class="block-title">Notable Projects</h1>
+        <div class="tags"><span>Category : </span> High End Office smart Cladding system</div>
+        <div class="tags"><span>Employer : </span> Foster + Partners</div>
+        <div class="tags"><span>Client: </span> Hankook Tire</div>
+        <div class="tags"><span>Location: </span> Seoul - South Korea</div>
+        <div class="tags"><span>Role : </span> Design optimisation | Visual/thermal Specifications | Coordination with local Manufacturer | Site inspection</div>
+    </div>
+    <p class="project-description">This is one of the most interesting projects I had the chance to work on and coordinate for the Environmental Engineering team at F+P. 
+        We had to come up with a fixed louvre system that would tackle glare and retain good daylight conditions throughout the space. I was able to push the boundaries of 
+        cladding specifications after doing thorough research and studies. I was able to alter the design to meet the need for glare mitigation as well as coordinate with the 
+        local manufacturer to build the system as specified. <br>Finally I was lucky enough to visit the site for visual inspection of the system. I led the communications
+        with the client on the subject throughout this process. 
+    </p>
+    <div class="project-media row">
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/hankook.jpg" class="centerImage" width="100%"></span>
+            <!-- <figcaption>Glare visualization tool</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/hankook3.jpg"  class="centerImage" width="100%"></span>
+            <!-- <figcaption>Urban Room solar ray access - Foster + Partners</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/hankook5.jpg"  class="centerImage" width="100%"></span>
+            <!-- <figcaption>Urban Room solar ray access - Foster + Partners</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/hankook6.png"  class="centerImage" width="100%"></span>
+            <!-- <figcaption>Urban Room solar ray access - Foster + Partners</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+        <div class="col-md-6">
+            <span><img src="../images/portfolio/projects/hankook7.jpg"  class="centerImage" width="100%"></span>
+            <!-- <figcaption>Urban Room solar ray access - Foster + Partners</figcaption> -->
+            <!--<img src="images/portfolio/masonry/unity_1.png" alt="" />-->
+        </div>
+    </div>
+    <div class="project-nav text-center">
+        <!--<span class="float-left">-->
+            <!--<a class="open-project" href="project-6.html">&leftarrow; Previous Project</a>-->
+        <!--</span>-->
+        <span class="">
+            <a id="close-project" href="#"><i class="ion-grid"></i></a>
+        </span>
+        <!--<span class="float-right">-->
+            <!--<a class="open-project" href="project-2.html">Next Project &rightarrow; </a>-->
+        <!--</span>-->
+    </div>
+</div>
+
+<script>
+    $('.open-project').on('click', function() {
+        var projectUrl = $(this).attr("href");
+        $('.inline-menu-container').removeClass('showx');
+        $('.content-blocks.pop').addClass('showx');
+        $('.content-blocks.pop section').load(projectUrl)
+        return false;
+    });
+    $('#close-project').on('click', function() {
+        $('.content-blocks.pop').removeClass('showx');
+        $('.inline-menu-container').addClass('showx');
+        $('.content-blocks.pop section').empty();
+    });
+</script>
